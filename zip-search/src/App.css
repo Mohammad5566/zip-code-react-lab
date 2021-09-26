@@ -3,4 +3,42 @@
   padding: 20px;
   color: white;
   text-align: center;
+  font-size: 24px;
 }
+
+.zip-search {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.search-box {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.city-box {
+  width: 200;
+  height: 180px;
+  border-radius: 10px 10px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 1px gray;
+  margin: 30px auto 30px auto;
+  width: 40%;
+  padding: 10px;
+  
+}
+
+.cities-list {
+  font-size: larger;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+  text-transform: capitalize;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+

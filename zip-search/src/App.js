@@ -1,6 +1,7 @@
+/* Mohammad Mahmud CTP Zip Search Lab */ 
+
 import React, { Component } from 'react';
 import './App.css';
-
 
 function City(props) {
   return  (
@@ -54,7 +55,7 @@ class App extends Component {
       fetch("http://ctp-zip-api.herokuapp.com/zip/" + event.target.value)
       .then(response => response.json())
       .then(data => {
-        // put city data into cities array in state
+        // put each Record into cities array in state
         let citiesData = []
         for (let d of data) {
           citiesData.push(d);
